@@ -1,0 +1,143 @@
+*{
+    font-family: 'Nunito Sans', sans-serif;
+    box-sizing: border-box;
+    
+   
+    
+}
+body{
+    background: #f0f0f0;
+    
+}
+
+.format{
+    display: flex;
+}
+
+.face-image{
+    width: 50px;
+    margin-top: 50px;
+    margin: auto;
+    
+}
+.hello-text{
+    color: rgb(50, 50, 50);
+}
+.hello{
+    background: white; 
+    padding:15px; 
+    position:relative; 
+    top: 50px; 
+    left:120px; 
+    width:40%; 
+    float:left;
+    
+   
+ }
+
+.hello::before{
+    content:''; 
+    position:absolute; 
+    width:20px; 
+    height:20px; 
+    left:-10px; 
+    top:25px; 
+    background:white;
+    transform:rotate(45deg); 
+}
+
+
+.reply1{
+    background: rgb(255, 251, 141); 
+    padding:15px; 
+    position:relative; 
+    top: 100px; 
+    left:120px; 
+    width:40%; 
+    float:left;
+    color: rgb(50, 50, 50);
+   display: none;
+ }
+
+ .reply1::before{
+    content:''; 
+    position:absolute; 
+    width:20px; 
+    height:20px; 
+    right:-10px; 
+    top:25px; 
+    background:rgb(255, 251, 141);
+    transform:rotate(45deg); 
+    display: none;
+}
+
+.reply1-reply{
+    background: white; 
+    padding:15px; 
+    position:relative; 
+    top: 50px; 
+    left:120px; 
+    width:40%; 
+    float:left;
+    color: rgb(50, 50, 50);
+    display: none;
+   
+ }
+
+.reply1-reply::before{
+    content:''; 
+    position:absolute; 
+    width:20px; 
+     height:20px; 
+    left:-10px; 
+    top:25px; 
+    background:white;
+    transform:rotate(45deg); 
+    display: none;
+}
+.before-btn{
+    color: rgb(147, 147, 147);
+   
+}
+
+.form-btn-dialog{
+    top:500px; 
+    position:relative;
+    color: rgb(50, 50, 50);
+    
+}
+
+.form-btn{
+    background-color: white;
+    width: 10%;
+    height: 10%;
+    margin-left: -20px;
+    border: 1px solid rgb(196, 196, 196);
+    text-align: center;
+    position:relative;
+}
+
+
+
+.form-btn-onclick:active{
+    background-color: rgb(255, 251, 141);
+}
+
+
+.trash-format{
+    background-color: rgb(147, 147, 147);
+    width: 1px;
+    height: 1px;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 500px;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.trash-format img{
+    width: 20px;
+       
+}
